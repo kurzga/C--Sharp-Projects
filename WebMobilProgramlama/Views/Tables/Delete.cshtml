@@ -1,0 +1,24 @@
+﻿@model WebMobilProgramlama.Models.Table
+@{
+    ViewBag.Title = "İl Sil";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="mb-3 text-danger">İli Sil</h2>
+<p class="mb-4">Bu kaydı silmek istediğinize emin misiniz?</p>
+
+<div class="alert alert-light border mb-4" style="max-width: 420px;">
+    <strong>@Model.ilad</strong> (@Model.ilplaka)
+</div>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <button type="submit" class="btn btn-danger">Evet, Sil</button>
+    @Html.ActionLink("Vazgeç", "Index", null,
+        new { @class = "btn btn-outline-secondary ms-2" })
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

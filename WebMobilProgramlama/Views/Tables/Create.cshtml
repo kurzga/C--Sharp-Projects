@@ -1,0 +1,35 @@
+﻿@model WebMobilProgramlama.Models.Table
+@{
+    ViewBag.Title = "Yeni İl";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="mb-4">Yeni İl Oluştur</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <div class="row g-3">
+        <div class="col-sm-4">
+            @Html.LabelFor(m => m.ilplaka, new { @class = "form-label" })
+            @Html.EditorFor(m => m.ilplaka, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(m => m.ilplaka, "", new { @class = "text-danger small" })
+        </div>
+
+        <div class="col-sm-8">
+            @Html.LabelFor(m => m.ilad, new { @class = "form-label" })
+            @Html.EditorFor(m => m.ilad, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(m => m.ilad, "", new { @class = "text-danger small" })
+        </div>
+
+        <div class="col-12">
+            <button type="submit" class="btn btn-primary">Kaydet</button>
+            @Html.ActionLink("Vazgeç", "Index", null,
+                new { @class = "btn btn-outline-secondary ms-2" })
+        </div>
+    </div>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

@@ -1,0 +1,38 @@
+﻿@model IEnumerable<WebMobilProgramlama.Models.Table>
+@{
+    ViewBag.Title = "İller";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="d-flex justify-content-between align-items-center mb-3">
+    <h2 class="mb-0">İller</h2>
+    @Html.ActionLink("Yeni İl Ekle", "Create", null,
+        new { @class = "btn btn-primary" })
+</div>
+<div class="alert alert-info mb-3">
+    @ViewBag.mesaj
+</div>
+<table class="table table-striped table-hover align-middle">
+    <thead class="table-dark">
+        <tr>
+            <th>@Html.DisplayNameFor(m => m.First().ilad)</th>
+            <th class="text-end">İşlemler</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.ilad</td>
+                <td class="text-end">
+                    @Html.ActionLink("Düzenle", "Edit",
+                        new { id = item.ilplaka }, new { @class = "btn btn-sm btn-outline-secondary me-1" })
+                    @Html.ActionLink("Detay", "Details",
+                        new { id = item.ilplaka }, new { @class = "btn btn-sm btn-outline-info me-1" })
+                    @Html.ActionLink("Sil", "Delete",
+                        new { id = item.ilplaka }, new { @class = "btn btn-sm btn-outline-danger" })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

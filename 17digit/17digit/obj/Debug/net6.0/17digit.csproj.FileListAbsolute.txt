@@ -1,0 +1,14 @@
+C:\Users\Dell\Desktop\Yazılım\C# Projects\17digit\17digit\bin\Debug\net6.0\17digit.exe
+C:\Users\Dell\Desktop\Yazılım\C# Projects\17digit\17digit\bin\Debug\net6.0\17digit.deps.json
+C:\Users\Dell\Desktop\Yazılım\C# Projects\17digit\17digit\bin\Debug\net6.0\17digit.runtimeconfig.json
+C:\Users\Dell\Desktop\Yazılım\C# Projects\17digit\17digit\bin\Debug\net6.0\17digit.dll
+C:\Users\Dell\Desktop\Yazılım\C# Projects\17digit\17digit\bin\Debug\net6.0\17digit.pdb
+C:\Users\Dell\Desktop\Yazılım\C# Projects\17digit\17digit\obj\Debug\net6.0\17digit.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dell\Desktop\Yazılım\C# Projects\17digit\17digit\obj\Debug\net6.0\17digit.AssemblyInfoInputs.cache
+C:\Users\Dell\Desktop\Yazılım\C# Projects\17digit\17digit\obj\Debug\net6.0\17digit.AssemblyInfo.cs
+C:\Users\Dell\Desktop\Yazılım\C# Projects\17digit\17digit\obj\Debug\net6.0\17digit.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Desktop\Yazılım\C# Projects\17digit\17digit\obj\Debug\net6.0\17digit.dll
+C:\Users\Dell\Desktop\Yazılım\C# Projects\17digit\17digit\obj\Debug\net6.0\refint\17digit.dll
+C:\Users\Dell\Desktop\Yazılım\C# Projects\17digit\17digit\obj\Debug\net6.0\17digit.pdb
+C:\Users\Dell\Desktop\Yazılım\C# Projects\17digit\17digit\obj\Debug\net6.0\17digit.genruntimeconfig.cache
+C:\Users\Dell\Desktop\Yazılım\C# Projects\17digit\17digit\obj\Debug\net6.0\ref\17digit.dll
